@@ -4,6 +4,7 @@
   "description": "Proyecto del Sistema de Acompañamiento Universitario",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Alejandro761/sae-project/issues"
   },
-  "homepage": "https://github.com/Alejandro761/sae-project#readme"
+  "homepage": "https://github.com/Alejandro761/sae-project#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
