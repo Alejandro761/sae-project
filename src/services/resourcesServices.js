@@ -5,7 +5,8 @@ const getAllResources = () => {
     return allResources;
 }
 const getResourcesByAuthor = () => {
-    return 
+    const resourcesByAuthor = Resources.getAllResources();
+    return resourcesByAuthor;
 }
 const getResourcesByTitle = () => {
     return 

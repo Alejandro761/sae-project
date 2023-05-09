@@ -4,6 +4,6 @@ const resourcesController = require('../controllers/resources')
 
 router 
     .get ("/", resourcesController.getAllResources)
-    .get ("/:author", resourcesController.getResourcesByAuthor);
+    .get ("/author/:author", resourcesController.getResourcesByAuthor);
 
 module.exports = router
