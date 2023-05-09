@@ -6,16 +6,25 @@ const getAllResources = (req, res) => {
 }
 
 const getResourcesByAuthor = (req, res) => {
-    // const {author} = req.params;
-    // console.log(body);
-    // const resourcesByAuthor = services.getResourcesByAuthor(req.params.author)
-    const resourcesByAuthor = services.getResourcesByAuthor(req, res)
+    const resources = services.getResourcesByAuthor(req, res)
+    res.status(200).send ({status: 'OK', data: resources})
+}
 
-    // res.send (`Mandando los recursos del autor(a) ${req.params.author}` )
-    res.status(200).send ({status: 'OK', data: resourcesByAuthor})
+const getResourcesByArea = (req, res) => {
+    const resources = services.getResourcesByArea(req, res)
+    res.status(200).send ({status: 'OK', data: resources})
+}
 
+const getResourcesByEditorial = (req, res) => {
+    const resources = services.getResourcesByEditorial(req, res)
+    res.status(200).send ({status: 'OK', data: resources})
+}
+
+const getResourcesByTitle = (req, res) => {
+    const resources = services.getResourcesByTitle(req, res)
+    res.status(200).send ({status: 'OK', data: resources})
 }
 
 module.exports = {
-    getAllResources, getResourcesByAuthor
+    getAllResources, getResourcesByAuthor, getResourcesByArea, getResourcesByEditorial, getResourcesByTitle
 }
