@@ -1,6 +1,6 @@
 const express = require ('express')
-const router = require('./routes') //solo si se llama index
-const resourcesRouter = require('./routes') //solo si se llama index
+// const router = require('./routes') //solo si se llama index
+const resourcesRouter = require('./routes/resources') //solo si se llama index
 
 const app = express()
 const PORT = process.env.PORT || 3000
@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000
 //     res.send("Holi");
 // })
 
-app.use("/api", router)
+// app.use("/api", router)
 
 app.use("/api/resources", resourcesRouter)
 
