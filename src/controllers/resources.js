@@ -2,7 +2,7 @@ const services = require('../services/resourcesServices')
 
 const getAllResources = (req, res) => {
     const allResources = services.getAllResources()
-    res.send ("Mandando todos los recursos")
+    res.send ({status: 'OK', data: allResources})
 }
 
 const getResourcesByAuthor = (req, res) => {
