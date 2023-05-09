@@ -20,4 +20,5 @@ const getAllResourcesByAuthor = async (auth) => {
 }
 
 getAllResources()
-getAllResourcesByAuthor("Paul Bratley")
+getAllResourcesByAuthor("pAuL h")
+// console.log("Paul Hola".includes("ul H"));

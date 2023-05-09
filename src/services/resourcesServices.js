@@ -7,7 +7,12 @@ const getAllResources = () => {
 
 const getResourcesByAuthor = (req, res) => {
     const {author} = req.params;
-    const authors = DB.resources.filter(resource => resource.author == author);
+    // const authors = DB.resources.filter(resource => resource.author == author);
+    // const authors = DB.resources.forEach(resource , () => {
+    //     resource.author.includes(author)
+    //     return resource
+    // })
+    const authors = DB.resources.filter(resources => resources.author.localeCompare(author))
     return authors;
 }
 

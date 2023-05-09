@@ -1,10 +1,44 @@
 {
     "resources" : [
         {
+            "link": "http://librodigital.sangregorio.edu.ec/librosusgp/B0038.pdf",
+            "author": "Mario F. Triola",
+            "area" : "ciencias exactas",
+            "editorial": "PEARSON",
+            "title": "ESTADÍSTICA",
+            "img": "https://m.media-amazon.com/images/I/8127ue7YyFL.jpg"
+        },
+        {
             "link": "http://aleteya.cs.buap.mx/~jlavalle/ada/FUNDAMENTALS%20OF%20ALGORITHMICS.pdf",
             "author": "Paul Bratley",
             "area" : "ciencias exactas",
-            "editorial": "PRENTICE HALL"
+            "editorial": "PRENTICE HALL",
+            "title": "FUNDAMENTALS OF ALGORITHMICS",
+            "img": "https://m.media-amazon.com/images/I/41I15jOmenL._SY264_BO1,204,203,200_QL40_ML2_.jpg"
+        },
+        {
+            "link": "https://www.gnu.org/philosophy/fsfs/free_software.es.pdf",
+            "author": "Richard M. Stallman",
+            "area": "ciencias exactas",
+            "editorial": "Traficante de sueños",
+            "title":"Software libre para una sociedad libre",
+            "img":"https://images.cdn2.buscalibre.com/fit-in/360x360/fd/ef/fdef4ebc27a755362e3f74c728ca9532.jpg"
+        },
+        {
+            "link": "https://libros.metabiblioteca.org/bitstream/001/169/8/AlgoritmosProgramacion.pdf",
+            "author": "Paul Bratley",
+            "area": "ciencias exactas",
+            "editorial": "Masson",
+            "title": "ALGORITMICA: CONCEPCION Y ANALISIS",
+            "img": "https://imagessl1.casadellibro.com/a/l/t1/defecto1.jpg"
+        },
+        {
+            "link": "https://e-library.sammu.uz/uploads/books/Ingliz%20tilidagi%20kitoblar/Sadler_T_W_--_Langman_39_s_medical_embryology.pdf",
+            "author": "T. W. Sadler",
+            "area": "medicina",
+            "editorial": "Lippincott Williams & Wilkins",
+            "title": "Langman's Medical Embryology ",
+            "img": "https://www.vet-ebooks.com/wp-content/uploads/2021/01/Langmans-Medical-Embryology-14th-Edition.jpg?x57639"
         }
     ]
 }
