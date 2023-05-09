@@ -3,7 +3,7 @@
         {
             "link": "http://librodigital.sangregorio.edu.ec/librosusgp/B0038.pdf",
             "author": "Mario F. Triola",
-            "area" : "ciencias exactas",
+            "area" : "ingenieria",
             "editorial": "PEARSON",
             "title": "ESTADÍSTICA",
             "img": "https://m.media-amazon.com/images/I/8127ue7YyFL.jpg"
@@ -11,7 +11,7 @@
         {
             "link": "http://aleteya.cs.buap.mx/~jlavalle/ada/FUNDAMENTALS%20OF%20ALGORITHMICS.pdf",
             "author": "Paul Bratley",
-            "area" : "ciencias exactas",
+            "area" : "ingenieria",
             "editorial": "PRENTICE HALL",
             "title": "FUNDAMENTALS OF ALGORITHMICS",
             "img": "https://m.media-amazon.com/images/I/41I15jOmenL._SY264_BO1,204,203,200_QL40_ML2_.jpg"
@@ -19,7 +19,7 @@
         {
             "link": "https://www.gnu.org/philosophy/fsfs/free_software.es.pdf",
             "author": "Richard M. Stallman",
-            "area": "ciencias exactas",
+            "area": "ingenieria",
             "editorial": "Traficante de sueños",
             "title":"Software libre para una sociedad libre",
             "img":"https://images.cdn2.buscalibre.com/fit-in/360x360/fd/ef/fdef4ebc27a755362e3f74c728ca9532.jpg"
@@ -27,7 +27,7 @@
         {
             "link": "https://libros.metabiblioteca.org/bitstream/001/169/8/AlgoritmosProgramacion.pdf",
             "author": "Paul Bratley",
-            "area": "ciencias exactas",
+            "area": "ingenieria",
             "editorial": "Masson",
             "title": "ALGORITMICA: CONCEPCION Y ANALISIS",
             "img": "https://cloud10.todocoleccion.online/libros-segunda-mano-informatica/tc/2021/12/03/12/304022533.webp"
