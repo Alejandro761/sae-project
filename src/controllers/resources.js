@@ -10,10 +10,6 @@ const getResourcesByAuthor = (req, res) => {
     res.status(200).send ({status: 'OK', data: resources})
 }
 
-const getResourcesByArea = (req, res) => {
-    const resources = services.getResourcesByArea(req, res)
-    res.status(200).send ({status: 'OK', data: resources})
-}
 
 const getResourcesByEditorial = (req, res) => {
     const resources = services.getResourcesByEditorial(req, res)
@@ -26,5 +22,5 @@ const getResourcesByTitle = (req, res) => {
 }
 
 module.exports = {
-    getAllResources, getResourcesByAuthor, getResourcesByArea, getResourcesByEditorial, getResourcesByTitle
+    getAllResources, getResourcesByAuthor, getResourcesByEditorial, getResourcesByTitle
 }

@@ -45,8 +45,16 @@
             "author": "Franco Kelly",
             "area": "medicina",
             "editorial": "Dr. Franco Kelly",
-            "title": "✅ INTRODUCCIÓN A LA EMBRIOLOGÍA HUMANA [2023] Conceptos Básicos 📚",
+            "title": "Embryology - Neurulation",
             "img": "https://cdn-icons-png.flaticon.com/512/4404/4404094.png"
+        },
+        {
+            "link": "https://sagitter.fedorapeople.org/faif-2.0.pdf",
+            "author": "Richard M. Stallman",
+            "area": "ingenieria",
+            "editorial": "Free Software Foundation",
+            "title":"Free as in Freedom (2.0): Richard Stallman",
+            "img":"https://olcovers2.blob.core.windows.net/coverswp/2015/01/Free-as-in-Freedom-2.0-OpenLibra.jpg"
         }
     ]
 }

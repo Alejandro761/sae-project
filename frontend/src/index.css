@@ -1,13 +1,86 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  width: auto;
+  height: auto;
+  padding: 2rem;
+  background-color: #0400DD;
+  font-size: 0.85rem;
+  font-size: 2.5rem;
+  color: white;
+}
+
+form {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+form .input {
+  font-size: 1.5rem;
+  border-radius: 6px;
+  padding: 0.2rem;
+}
+
+#filtro {
+  background-color: wheat;
+}
+
+#area {
+  background-color: violet;
+}
+
+button {
+  font-size: 1.5rem;
+  background-color: burlywood;
+  background-color: turquoise;
+  border-color: wheat;
+  border-radius: 7px;
+  padding: 0.7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 4rem;
+}
+
+h2 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.Resources {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.Resource {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.Resource img{
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  align-items: flex-start;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 30px;
 }

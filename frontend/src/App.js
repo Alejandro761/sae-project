@@ -4,11 +4,11 @@ import { Search } from './components/Search';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Search/>
-      </header>
+      <h1>Sistema de Acompañamiento Educativo</h1>
+      <Search/>
     </div>
   );
 }
 
 export default App;
+
